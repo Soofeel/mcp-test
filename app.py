@@ -46,7 +46,7 @@ with col2:
             st.text_area("출력 결과", value=result_text, height=500)
             st.success("분석 완료 ✅")
 
-                st.caption(f"⏱️ duration {result['duration']:.5f}s")
+            st.caption(f"⏱️ duration {result['duration']:.5f}s")
 
         except Exception as e:
             st.error(f"❌ 오류 발생: {e}")
